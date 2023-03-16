@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Quicksand:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(243, 244, 246);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1C20;
+  height: 80px;
+  font-family: "Quicksand", sans-serif;
+}
+header a img {
+  margin-left: 30px;
+}
+header img {
+  margin-right: 50px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+header nav ul li {
+  position: relative;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+header nav ul li a:hover {
+  background-color: #3d3e5a;
+}
+header nav ul li ul {
+  position: absolute;
+  background-color: #2b2d42;
+  min-width: 200px;
+  display: none;
+}
+header nav ul li ul li a {
+  padding: 10px 20px;
+}
+header nav ul li:hover ul {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
