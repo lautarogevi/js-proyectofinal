@@ -65,4 +65,9 @@ header nav ul li:hover ul {
   display: block;
 }
 
+.disabled {
+  display: none;
+}
+
+
 /*# sourceMappingURL=style.css.map */
