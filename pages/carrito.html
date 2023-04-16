@@ -16,6 +16,7 @@
         }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/img/logo-pestaña.jpg" type="image/x-icon">
 </head>
@@ -66,7 +67,7 @@
                 </li>
             </ul>
         </nav>
-        <a href="./cartpage.html">
+        <a href="./carrito.html">
             <img src="../assets/img/carrito-de-compras.png" height="35" width="35" alt="">
         </a>
     </header>
@@ -75,12 +76,14 @@
             <h1 class="mb-10 text-center text-2xl font-bold">Cart Items</h1>
             <div class="contenedorCarrito mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
                 <div class="rounded-lg md:w-2/3">
-                    <p class="carritoVacio" id="carritoVacio">Tu carrito esta vacio</p>
+                    <div class="contenedorCarritoVacio">
+                        <p class="carritoVacio" id="carritoVacio">Tu carrito esta vacio</p>
+                    </div>
 
                     <div id="carritoProductos" class="carritoProductos disabled">
                         <!-- Esto se va a completar con JS -->
                     </div>
-                    
+
                 </div>
                 
                 <div id="carritoAcciones" class="mt-6 h-full rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/3">
@@ -93,13 +96,14 @@
                         <p class="text-lg font-bold">Total</p>
                         <p id="total" class="mb-1 text-lg font-bold">$1.450 USD</p>
                     </div>
-                    <button id="carritoAccionesComprar" class="carritoAccionesComprar mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600">Check out</button>
-                    <button id="carritoAccionesVaciar" class="carritoAccionesVaciar mt-6 w-full rounded-md bg-red-500 py-1.5 font-medium text-red-50 hover:bg-red-600">Vaciar Carrito</button>
+                    <button id="carritoAccionesComprar" class="carritoAccionesComprar mt-6 w-full rounded-md bg-indigo-500 py-1.5 font-medium text-indigo-50 hover:bg-indigo-600">Check out</button>
+                    <button id="carritoAccionesVaciar" class="carritoAccionesVaciar mt-6 w-full rounded-md bg-red-400 py-1.5 font-medium text-red-50 hover:bg-red-500">Vaciar Carrito</button>
                 </div>
                 <p class="carritoComprado disabled" id="carritoComprado">Muchas gracias por tu compra</p>
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="../js/carrito.js"></script>
 </body>
 

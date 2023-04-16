@@ -69,5 +69,13 @@ header nav ul li:hover ul {
   display: none;
 }
 
+.contenedorCarritoVacio {
+  width: 100%;
+  text-align: center;
+}
+.carritoVacio {
+  margin-top: 200px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
