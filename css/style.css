@@ -10,6 +10,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background-color: rgb(243, 244, 246);
 }
@@ -65,6 +67,34 @@ header nav ul li:hover ul {
   display: block;
 }
 
+footer {
+  background-color: #393E46;
+  text-align: center;
+  margin-top: auto;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer .redes a {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+  
+}
+.texto {
+  font-size: 12px;
+  color: rgb(243, 244, 246);
+}
+
+
+
+
 .disabled {
   display: none;
 }
@@ -75,7 +105,9 @@ header nav ul li:hover ul {
 }
 .carritoVacio {
   margin-top: 200px;
+  font-size: 22px;
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
