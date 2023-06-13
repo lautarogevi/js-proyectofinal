@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Capot Forged Carbon",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto01",
+        "precio": 1300,
+        "imagen": "../assets/img/producto-capot-forged-carbon.jpg"
+    },
+    {
+        "nombre": "Spoiler TECHART",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto02",
+        "precio": 2650,
+        "imagen": "../assets/img/producto-spoilerGTstreetR.jpeg"
+    },
+    {
+        "nombre": "Brank capot",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto03",
+        "precio": 450,
+        "imagen": "../assets/img/producto-forged-carbon-3.jpg"
+    },
+    {
+        "nombre": "Exhaust TECHART",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto04",
+        "precio": 1450,
+        "imagen": "../assets/img/producto-full-exhaust.jpeg"
+    },
+    {
+        "nombre": "Volante Carbon Fibre",
+        "modeloAuto": "Mercedes Benz A45 ",
+        "id": "producto05",
+        "precio": 900,
+        "imagen": "../assets/img/producto-volantemb.jpg"
+    },
+    {
+        "nombre": "Kit Front-Bumper TECHART",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto06",
+        "precio": 1800,
+        "imagen": "../assets/img/front-bumper-carritodecompras.jpeg"
+    },
+    {
+        "nombre": "Cachas Carbon Fibre",
+        "modeloAuto": "BMW M240",
+        "id": "producto07",
+        "precio": 720,
+        "imagen": "../assets/img/producto-cachas-espejo-carbono.jpg"
+    },
+    {
+        "nombre": "Spoiler Forged Carbon",
+        "modeloAuto": "Porsche 911 Turbo S",
+        "id": "producto08",
+        "precio": 650,
+        "imagen": "../assets/img/producto-spoiler-forged-carbon.jpg"
+    }
+]
