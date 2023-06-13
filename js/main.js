@@ -45,18 +45,18 @@ function cargarProductos(productos) {
             `
             productosContainer.append(productCard);
         });
+
+        let botonesAgregar = document.querySelectorAll(".btnAddCart");
+
+        botonesAgregar.forEach(boton => {
+            boton.addEventListener("click", (e) => agregarAlCarrito(e, productos));
+        });
     }
-    
 }
 
 cargarProductos();
 
 
-let botonesAgregar = document.querySelectorAll(".btnAddCart");
-
-botonesAgregar.forEach(boton => {
-    boton.addEventListener("click", agregarAlCarrito);
-});
 
 
 let productosEnCarrito;
@@ -70,7 +70,7 @@ if (productosEnCarritoLS) {
 }
 
 
-function agregarAlCarrito(e) {
+function agregarAlCarrito(e, arrayProd) {
 
     Toastify({
         text: "Producto agregado",
@@ -93,7 +93,7 @@ function agregarAlCarrito(e) {
     }).showToast();
 
     const idBoton = e.currentTarget.id;
-    const productoAgregado = productos.find(producto => producto.id === idBoton);
+    const productoAgregado = arrayProd.find(producto => producto.id === idBoton);
 
     if (productosEnCarrito.some(producto => producto.id === idBoton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
